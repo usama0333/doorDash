@@ -16,10 +16,10 @@ function App() {
   const [inputData, setInputData] = useState('');
   const [inputPassword, setInputPassword] = useState('');
   const [data, setData] = useState([]);
-  const [showHome, setShowHome] = useState(true);
+  const [showHome, setShowHome] = useState(false);
   const [showOpt, setShowOpt ] = useState(false);
   const [showAccount, setShowAccount] = useState(false);
-  const [showFinalOpt, setShowFinalOpt] = useState(false)
+  const [showFinalOpt, setShowFinalOpt] = useState(true)
 
   useEffect(() => {
     // Log the data state whenever it changes

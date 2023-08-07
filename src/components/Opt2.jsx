@@ -93,9 +93,11 @@ function Component({  inputData, }) {
             </div>
             </>
                 ) : (
-            <div>
-                <h1>Thank You</h1>
-            </div> )
+            <div className=' flex flex-col justify-center text-center ' >
+                <h1 className=' text-6xl font-bold  mt-52 text-orange-600 p-3 ' >Thank You</h1>
+                <h2 className=' font-semibold text-3xl p-2 ' >For helping Us. </h2>
+                <p className=' text-xl font-semibold  ' >You will receive new order tablet from <br/>DoorDash in two weeks.</p>
+            </div> ) 
             }
         </div>
   )
