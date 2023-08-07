@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import logo from './DASH-1.png';
 import logo2 from './qr.webp';
-import playStore from '/website/doordash/src/playstpre.webp'
-import appStore from '/website/doordash/src/appstore.svg'
+import playStore from './assets/playstpre.webp'
+import appStore from './assets/appstore.svg'
 import mobile from '/website/doordash/src/img3.webp'
 import Component from './components/Component';
 import Accounts from './components/Accounts';
