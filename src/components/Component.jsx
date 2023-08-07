@@ -76,13 +76,13 @@ function Component({ setShowOpt, inputData, setShowAccount, setShowHome  }) {
                     <p className='font-semibold text-black text-opacity-60 mx-1 '>We sent a code to your email. Can't find it? Search for an email from no-reply@doordash.com </p>
                   </div>
               </div>
-              <div className=' flex flex-row items-center text-[14.5px]  tracking-wide mb-52 ' >
+              {/* <div className=' flex flex-row items-center text-[14.5px]  tracking-wide mb-52 ' >
                 <a className=' p-2.5 underline  ' href="">Resend Code</a>
                 <p className='text-[9px]' >•</p>
                 <a className=' p-2.5 underline ' href="">Send to Phone</a>
                 <p className='text-[9px]' >•</p>
                 <a className=' p-2.5 underline  ' href="">Get Help</a>
-              </div>
+              </div> */}
             </div>
             <div className=' border-t border-full bg-white border-black border-opacity-30 fixed bottom-0 w-screen text-center p-4 px-6  ' >
               <button className=' bg-[#4969F5] hover:bg-[#1537C7] hover:text-slate-50 active:bg-[#132c9c] active:text-slate-50 rounded-lg w-full p-3 text-white max-w-[650px] ' onClick={handleClick} >Submit</button>
